@@ -2,8 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
     <title>Title</title>
 </head>
 <body>
+<main class="main">
+    <div id="todo" class="todo">
+        <label>Task Name
+            <input class="todo-input" type="text" name="text">
+        </label>
+        <ul class="todos"></ul>
+    </div>
+    <div>
+        <button id="clear">Clear List</button>
+        <button id="loadMore" class="load-more">Load More</button>
+    </div>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
